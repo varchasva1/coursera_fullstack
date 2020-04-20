@@ -4,7 +4,7 @@ div.one{
 	display : inline-block;
 	float : left;
 	padding : 2%;
-	border-color : black;
+	border-color : green;
 }
 div.two{
 	background-color: grey;
@@ -12,7 +12,7 @@ div.two{
 	display : inline-block;
 	margin-left: 1.2%;
 	padding : 2%;
-	border-color : black;
+	border-color : green;
 }
 div.three{
 	background-color: grey;
@@ -20,7 +20,7 @@ div.three{
 	width : 28.50%;
 	float : right;
 	padding : 2%;
-	border-color : black;
+	border-color : green;
 }
 p.beef{
 	background-color: d33e3e;
@@ -29,7 +29,7 @@ p.beef{
 	margin-top : -7%;
 	margin-right: -7%;
 	float: right;
-	border-color : black;
+	border-color : green;
 }
 p.chicken{
 	background-color: e1a969;
@@ -38,7 +38,7 @@ p.chicken{
 	margin-top : -7%;
 	margin-right: -7%;
 	float: right;
-	border-color : black;
+	border-color : green;
 }
 p.sushi{
 	background-color: f6d8b5;
@@ -47,7 +47,7 @@ p.sushi{
 	margin-top : -7%;
 	margin-right: -7%;
 	float: right;
-	border-color : black;
+	border-color : green;
 }
 @media only screen and (max-width: 767px) {
   div.three, div.one, div.two {
