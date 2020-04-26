@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #navbar{
 	height:100%;
 	margin-top:0%;
@@ -19,92 +18,12 @@
 
 #main-content{
 	background-color: #999999;
-=======
-div.one{
-	background-color: grey;
-	width : 28.50%;
-	display : inline-block;
-	float : left;
-	padding : 2%;
-	border-color : green;
-}
-div.two{
-	background-color: grey;
-	width : 28.50%;
-	display : inline-block;
-	margin-left: 1.2%;
-	padding : 2%;
-	border-color : green;
-}
-div.three{
-	background-color: grey;
-	display : inline-block;
-	width : 28.50%;
-	float : right;
-	padding : 2%;
-	border-color : green;
-}
-p.beef{
-	background-color: d33e3e;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-	border-color : green;
-}
-p.chicken{
-	background-color: e1a969;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-	border-color : green;
-}
-p.sushi{
-	background-color: f6d8b5;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-	border-color : green;
->>>>>>> b207e0514890eb42b1737f2cf1cefdd5ab8f2be8
 }
 
 #main-content{
 	margin-top:25px;
 }
 
-<<<<<<< HEAD
  #heading{
 	font-size: 20px;
 }
-=======
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  div.three {
-    width : 95%;
-    margin-top: 2%;
-    float : none;
-  }
-  div.one {
-  	width : 44%;
-  	margin-top: 2%;
-  	float : left;
-  }
-  div.two{
-  	width : 44%;
-  	margin-top: 2%;
-  	float : right;
-  }
-  p.chicken, p.beef{
-  	margin-top: -4.6%;
-  	margin-right: -4.6%;
-  }
-  p.sushi{
-  	margin-top: -2.1%;
-  	margin-right: -2.1%;
-  }
-}
->>>>>>> b207e0514890eb42b1737f2cf1cefdd5ab8f2be8
