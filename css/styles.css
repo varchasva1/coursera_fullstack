@@ -1,84 +1,29 @@
-div.one{
-	background-color: grey;
-	width : 28.50%;
-	display : inline-block;
-	float : left;
-	padding : 2%;
-}
-div.two{
-	background-color: grey;
-	width : 28.50%;
-	display : inline-block;
-	margin-left: 1.2%;
-	padding : 2%;
-}
-div.three{
-	background-color: grey;
-	display : inline-block;
-	width : 28.50%;
-	float : right;
-	padding : 2%;
-}
-p.beef{
-	background-color: d33e3e;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-}
-p.chicken{
-	background-color: e1a969;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-}
-p.sushi{
-	background-color: f6d8b5;
-	padding : 10px;
-	width : 35%;
-	margin-top : -7%;
-	margin-right: -7%;
-	float: right;
-}
-@media only screen and (max-width: 767px) {
-  div.three, div.one, div.two {
-    width : 90%;
-    display: inline-block;
-    margin-top: 2%;
-    float : none;
-    margin-left: 0px;
-  }
-  p.sushi, p.chicken, p.beef{
-  	margin-top: -2.2%;
-  	margin-right: -2.2%;
-  }
+#navbar{
+	height:100%;
+	margin-top:0%;
+	margin-bottom:3%;
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  div.three {
-    width : 95%;
-    margin-top: 2%;
-    float : none;
-  }
-  div.one {
-  	width : 43%;
-  	margin-top: 2%;
-  	float : left;
-  }
-  div.two{
-  	width : 43%;
-  	margin-top: 2%;
-  	float : right;
-  }
-  p.chicken, p.beef{
-  	margin-top: -4.6%;
-  	margin-right: -4.6%;
-  }
-  p.sushi{
-  	margin-top: -2.1%;
-  	margin-right: -2.1%;
-  }
+
+@media only screen and (min-width : 768px){
+	#navbar{
+		width:100%;
+		margin-top:-20px;
+	}
+}
+
+#toggle{
+	background-color: #ffe769;
+}
+
+#main-content{
+	background-color: #999999;
+}
+
+#main-content{
+	margin-top:25px;
+}
+
+ #heading{
+	font-size: 20px;
 }
